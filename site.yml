@@ -1,0 +1,11 @@
+---
+- name: Check strategy plugin
+  hosts: localhost
+  tasks:
+    - ping:
+
+- name: Check strategy plugin
+  hosts: localhost
+  strategy: itd27m01.example.mitogen_linear
+  tasks:
+    - ping:

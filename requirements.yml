@@ -1,0 +1,6 @@
+---
+collections:
+  - name: itd27m01.example
+    type: git
+    source: https://github.com/ITD27M01/ansible-mitogen-collection.git
+    version: main
